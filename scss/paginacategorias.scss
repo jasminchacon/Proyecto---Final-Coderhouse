@@ -5,15 +5,12 @@
     width: 100%;
     justify-content: space-between;
 }
-
-
 .migaPanCategorias{
     margin-left: 64px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 32px;
 }
-
 @media screen and (max-width:992px){
     .migaPanCategorias{
     padding-top: 2px;
@@ -22,35 +19,26 @@
     flex-wrap: wrap;
 }  
   }
-
-
 .viñeta{
     list-style-type: none;
 }
-
 .listCategorias{
     margin-bottom: 16px;
     margin-left: 0px;
 }
-
 .contenedorListCategorias{
     margin-left: 60px;
     max-width: 200px;
     float: left;
 }
-
 @media screen and (max-width:992px) {
     .contenedorListCategorias{
        display: none;
     }
 }
-
 .contenedorFiltroMobile{
-
  display: flex;
 }
-
-
 .filtroMobile{
  border-color: black;
  border: solid;
@@ -63,13 +51,11 @@
  display: flex;
  justify-content: center;
 }
-
 @media screen and (min-width:992px) {
     .filtroMobile{
     display: none;
     }  
 }
-
 .productosGrid{
     display: flex;
     flex-wrap: wrap;
@@ -78,14 +64,9 @@
     margin-left: 25px;
     width: 1190px;
 }
-
 .contenedorProductosGrid{
 display: flex;
 flex-wrap: wrap;
 max-width: 1200px;
 padding-left: 5%;
 }
-
-
-
-

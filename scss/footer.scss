@@ -1,7 +1,5 @@
 
 /*FOOTER */
-
-
 .contenedorFooter{
     background-color: black;
     color: white;
@@ -11,16 +9,13 @@
     list-style-type: none;
     justify-content: center;
     padding-top: 30px;
-
     @if screen and (max-width:992px){
     padding-left: 32px;
     }
     }
-    
     .logoFooter{
     margin-bottom: 16px;
     }
-
     @media screen and (max-width:992px){
         .logoFooter{
             margin-bottom: 16px;
@@ -28,13 +23,11 @@
             height: auto;
             }
     }
-    
     .contenedorFooter1{
     width: 451px;
     margin-right: 150px;
     color: white;    
     }
-    
     @media screen and (max-width:992px){
         .contenedorFooter1{
             margin-bottom: 16px;
@@ -43,14 +36,10 @@
             height: auto;
             }
     }
-
-
     .footerColumna1{
     margin-right: 150px;
     color: white;
     }
-    
- 
     @media screen and (max-width:992px){
     .footerColumna1{
     margin-bottom: 16px;
@@ -59,12 +48,9 @@
     height: auto;
     }
     }
-
-
     .centroDeAyuda{
     margin-right: 150px;
     }
-
     @media screen and (max-width:992px){
         .centroDeAyuda{
             margin-bottom: 16px;
@@ -73,12 +59,10 @@
             height: auto;
             }
     }
-    
     .creditosFooter{
     text-align-last: center;
     justify-items: center;
     }
-
     @media screen and (max-width:992px){
         .creditosFooter{
             margin-bottom: 16px;
@@ -88,7 +72,6 @@
             margin-top: 16px;
             }
     }
-    
     @media screen and (max-width:992px){
         .siguenos{
             margin-bottom: 16px;
@@ -98,7 +81,6 @@
             margin-bottom: 32px;
             }
     }
-
     .tituloMedioPagoFooter{
         margin-top: 16px;
         margin-bottom: 8px;
