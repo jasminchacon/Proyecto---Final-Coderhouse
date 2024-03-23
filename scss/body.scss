@@ -1,0 +1,266 @@
+
+
+/* Carrusel */
+
+.carouselBanner{
+    width: 1440px;
+    height: 500px;
+}
+
+.carousel-caption{
+    margin-bottom: 200px;
+    padding-right: 70px;
+    text-align: left;
+}
+
+    @media screen and (max-width:992px) {
+        .carousel-caption{
+            margin-bottom: 0;
+            padding-bottom: 0;
+
+        h2{
+            font-size: 18px;
+        }
+        
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+    
+    .tituloCarousel {
+    text-align: left;
+    }
+        
+    .buttonCarousel{
+    background-color: black;
+    color: white;
+    width: 180px;
+    height: 48px;
+    border: none;
+
+    @media screen and (max-width:992px){
+        width: 150px;
+        height: 38px;
+        font-size: 12px;
+    }
+    
+    &:hover{
+        background-color: white;
+        color: black;
+        }
+        
+    }
+    
+    
+    .d-none {
+      display: block !important;
+    }
+
+
+/* Inicio Cintillo Desktop */
+
+.cintilloDesktop{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+ 
+
+.textoCintilloDesktop{
+    color: white;
+    width: 1312px;
+    height: 200px;
+    padding-left: 801px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 63px;
+    background-image:  url(../img/cintilloDesktop.png);
+    background-repeat: no-repeat;
+} 
+
+@media screen and (max-width:992px){
+    .cintilloDesktop{
+        display: none;
+}
+}
+@media screen and (max-width:992px){
+    .textoCintilloDesktop{
+        display: none;
+}
+}
+
+/* Inicio Cintillo Mobile */
+
+
+    .cintilloMobile{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 400px;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        background-image:  url(../img/Cintillo-promomobile.png);
+        background-repeat: no-repeat;
+    }
+
+    .textoCintilloMobile{
+        color: white;
+         text-align: center;
+        justify-content: center;
+    } 
+    @media screen and (min-width:992px){
+        .cintilloMobile{
+            display: none;
+    }
+    }
+    @media screen and (min-width:992px){
+        .textoCintilloMobile{
+            display: none;
+    }
+    }
+
+.botonBanner{
+    width: auto;
+    height: 48px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+}
+
+.botonBanner:hover{
+    width: auto;
+    height: 48px;
+    background-color: white;
+    color: black;
+    margin-top: 25px;
+}
+
+/* Cajas box */
+
+.contenedorCaja{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+
+@if screen and (max-width:992px){
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+}
+
+
+.caja1{
+    width: 421px;
+    height: 300px;
+    margin-right: 20px;
+    background-image: url(../img/boxMujer.png);
+    color: white;
+    padding-top: 130px;
+
+&:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+}
+
+
+@media screen and (max-width:992px){
+    .caja1{
+        margin-bottom: 25px;
+    }
+    }
+
+.caja2{
+    width: 421px;
+    height: 300px;
+    margin-right: 20px;
+    background-image: url(../img/boxHombre.png);
+    color: white;
+    padding-top: 130px;
+
+&:hover:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+}
+
+@media screen and (max-width:992px){
+    .caja2{
+        margin-bottom: 25px;
+    }
+    }
+
+.caja3{
+    width: 421px;
+    height: 300px;
+    background-image: url(../img/boxNinos.png);
+    color: white;
+    padding-top: 130px;
+
+&:hover:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+}
+
+@media screen and (max-width:992px){
+    .caja3{
+        margin-bottom: 40px;
+    }
+    }
+
+/*PRODUCTOS DESTACADOS Y CARD*/
+.cardProducto{
+    max-width: 200px;
+    margin-right: 5%;
+}
+
+@media screen and (max-width:992px){
+    .cardProducto{
+        max-width: 150px;
+        margin-right: 5%;
+    }
+}
+
+.cardTituloProducto{
+    margin-top: 16px;
+}
+
+@media screen and (max-width:992px){
+.imagenCard{
+width: 60%;
+height: auto;
+}
+}
+
+.tituloProductoDestacado{
+text-align: center;
+margin-bottom: 40px;
+}
+
+.contenedorProductoDestacados{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+@media screen and (max-width:992px){
+    .contenedorProductoDestacados{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        justify-content: center;
+        margin-left: 12px;
+    }
+}

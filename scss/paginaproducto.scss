@@ -1,0 +1,58 @@
+
+
+.contenedorProducto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedorImagenProducto {
+    max-width: 747px;
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    }
+
+    @media screen and (max-width:992px){
+ .imagenProducto{
+    width: 80%;
+    height: auto;
+ }   
+}  
+    
+.contenedorInfoProducto{
+padding-top: 32px;    
+width: 537px;
+height: auto;
+text-align: left;
+}
+
+.botonTalla{
+    width: 33px;
+    height: 41px;
+    padding: 10px;
+    text-align: center;
+}
+
+.botonColor{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 60px;
+}
+
+
+.botonPrimario{
+    width: auto;
+    height: 48px;
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    border: 1px solid;
+
+&:hover{
+    background-color: white;
+    color: black;
+}
+}

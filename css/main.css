@@ -1,0 +1,671 @@
+@charset "UTF-8";
+h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+sub {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 14px;
+}
+
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+.botonPrimario {
+  width: auto;
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+/* Menu Desktop */
+.menuDesktop {
+  width: 100%;
+  height: 100px;
+  padding: 38px 100px 38px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 992px) {
+  .menuDesktop {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .navbar {
+    display: none;
+  }
+}
+.logoDePagina {
+  width: 322px;
+  height: auto;
+  display: flex;
+  float: inline-start;
+}
+
+.navPrincipal {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 38px;
+}
+
+.itemNav {
+  margin-right: 32px;
+  text-decoration: none;
+  position: relative;
+  left: 0px;
+  display: flex;
+}
+
+.contenedorIconos {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  justify-content: center;
+  width: 160px;
+  height: 32px;
+  margin-top: 38px;
+}
+
+.iconoNav {
+  margin-right: 32px;
+  text-decoration: none;
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: none;
+}
+
+.container-fluid {
+  background-color: white;
+  padding-bottom: 8px;
+}
+
+/*FOOTER */
+.contenedorFooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style-type: none;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 32px;
+}
+
+.logoFooter {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .logoFooter {
+    margin-bottom: 16px;
+    width: 322px;
+    height: auto;
+  }
+}
+.contenedorFooter1 {
+  width: 451px;
+  margin-right: 150px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .contenedorFooter1 {
+    margin-bottom: 16px;
+    margin-left: 12px;
+    width: 100%;
+    height: auto;
+  }
+}
+.footerColumna1 {
+  margin-right: 150px;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .footerColumna1 {
+    margin-bottom: 16px;
+    margin-left: 12px;
+    width: 100%;
+    height: auto;
+  }
+}
+.centroDeAyuda {
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 992px) {
+  .centroDeAyuda {
+    margin-bottom: 16px;
+    margin-left: 12px;
+    width: 700px;
+    height: auto;
+  }
+}
+.creditosFooter {
+  text-align-last: center;
+  justify-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .creditosFooter {
+    margin-bottom: 16px;
+    text-align: center;
+    width: 700px;
+    height: auto;
+    margin-top: 16px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .siguenos {
+    margin-bottom: 16px;
+    margin-left: 12px;
+    width: 700px;
+    height: auto;
+    margin-bottom: 32px;
+  }
+}
+.tituloMedioPagoFooter {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.bannerSeccionesContacto {
+  width: 100%;
+  height: 386px;
+  background-image: url(../img/contectenos.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+  .bannerSeccionesContacto {
+    width: 100%;
+    height: 386px;
+    background-image: url(../img/banner_contactomobile.png);
+    background-repeat: no-repeat;
+  }
+}
+.bannerSeccionesNosotros {
+  width: 100%;
+  height: 386px;
+  background-image: url(../img/quienes-somos.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+  .bannerSeccionesNosotros {
+    width: 100%;
+    height: 386px;
+    background-image: url(../img/quienes-somos.png);
+    background-repeat: no-repeat;
+  }
+}
+.titulosBannerSecciones {
+  text-align: center;
+  padding-top: 169px;
+  color: white;
+}
+
+.boxContactenos {
+  max-width: 776px;
+  height: auto;
+  padding-top: 93px;
+  margin-bottom: 120px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 327px;
+}
+
+@media screen and (max-width: 992px) {
+  .boxContactenos {
+    max-width: 776px;
+    height: auto;
+    padding-top: 93px;
+    margin-bottom: 120px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+.boxQuienesSomos {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bienvenidosTitulo {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  color: white;
+  margin-top: -280px;
+}
+
+.encabezado {
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.reseñaDeMarca {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.contenedorMiga {
+  padding-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.migaPanCategorias {
+  margin-left: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+}
+
+@media screen and (max-width: 992px) {
+  .migaPanCategorias {
+    padding-top: 2px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.viñeta {
+  list-style-type: none;
+}
+
+.listCategorias {
+  margin-bottom: 16px;
+  margin-left: 0px;
+}
+
+.contenedorListCategorias {
+  margin-left: 60px;
+  max-width: 200px;
+  float: left;
+}
+
+@media screen and (max-width: 992px) {
+  .contenedorListCategorias {
+    display: none;
+  }
+}
+.contenedorFiltroMobile {
+  display: flex;
+}
+
+.filtroMobile {
+  border-color: black;
+  border: solid;
+  width: 114px;
+  height: 41px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .filtroMobile {
+    display: none;
+  }
+}
+.productosGrid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-left: 25px;
+  width: 1190px;
+}
+
+.contenedorProductosGrid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding-left: 5%;
+}
+
+.contenedorProducto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.contenedorImagenProducto {
+  max-width: 747px;
+  height: auto;
+  margin-top: 35px;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .imagenProducto {
+    width: 80%;
+    height: auto;
+  }
+}
+.contenedorInfoProducto {
+  padding-top: 32px;
+  width: 537px;
+  height: auto;
+  text-align: left;
+}
+
+.botonTalla {
+  width: 33px;
+  height: 41px;
+  padding: 10px;
+  text-align: center;
+}
+
+.botonColor {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 60px;
+}
+
+.botonPrimario {
+  width: auto;
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+  border: 1px solid;
+}
+.botonPrimario:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Carrusel */
+.carouselBanner {
+  width: 1440px;
+  height: 500px;
+}
+
+.carousel-caption {
+  margin-bottom: 200px;
+  padding-right: 70px;
+  text-align: left;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-caption {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .carousel-caption h2 {
+    font-size: 18px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+}
+.tituloCarousel {
+  text-align: left;
+}
+
+.buttonCarousel {
+  background-color: black;
+  color: white;
+  width: 180px;
+  height: 48px;
+  border: none;
+}
+@media screen and (max-width: 992px) {
+  .buttonCarousel {
+    width: 150px;
+    height: 38px;
+    font-size: 12px;
+  }
+}
+.buttonCarousel:hover {
+  background-color: white;
+  color: black;
+}
+
+.d-none {
+  display: block !important;
+}
+
+/* Inicio Cintillo Desktop */
+.cintilloDesktop {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 200px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.textoCintilloDesktop {
+  color: white;
+  width: 1312px;
+  height: 200px;
+  padding-left: 801px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 63px;
+  background-image: url(../img/cintilloDesktop.png);
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 992px) {
+  .cintilloDesktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .textoCintilloDesktop {
+    display: none;
+  }
+}
+/* Inicio Cintillo Mobile */
+.cintilloMobile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/Cintillo-promomobile.png);
+  background-repeat: no-repeat;
+}
+
+.textoCintilloMobile {
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 992px) {
+  .cintilloMobile {
+    display: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .textoCintilloMobile {
+    display: none;
+  }
+}
+.botonBanner {
+  width: auto;
+  height: 48px;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+.botonBanner:hover {
+  width: auto;
+  height: 48px;
+  background-color: white;
+  color: black;
+  margin-top: 25px;
+}
+
+/* Cajas box */
+.contenedorCaja {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.caja1 {
+  width: 421px;
+  height: 300px;
+  margin-right: 20px;
+  background-image: url(../img/boxMujer.png);
+  color: white;
+  padding-top: 130px;
+}
+.caja1:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 992px) {
+  .caja1 {
+    margin-bottom: 25px;
+  }
+}
+.caja2 {
+  width: 421px;
+  height: 300px;
+  margin-right: 20px;
+  background-image: url(../img/boxHombre.png);
+  color: white;
+  padding-top: 130px;
+}
+.caja2:hover:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 992px) {
+  .caja2 {
+    margin-bottom: 25px;
+  }
+}
+.caja3 {
+  width: 421px;
+  height: 300px;
+  background-image: url(../img/boxNinos.png);
+  color: white;
+  padding-top: 130px;
+}
+.caja3:hover:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 992px) {
+  .caja3 {
+    margin-bottom: 40px;
+  }
+}
+/*PRODUCTOS DESTACADOS Y CARD*/
+.cardProducto {
+  max-width: 200px;
+  margin-right: 5%;
+}
+
+@media screen and (max-width: 992px) {
+  .cardProducto {
+    max-width: 150px;
+    margin-right: 5%;
+  }
+}
+.cardTituloProducto {
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 992px) {
+  .imagenCard {
+    width: 60%;
+    height: auto;
+  }
+}
+.tituloProductoDestacado {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contenedorProductoDestacados {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .contenedorProductoDestacados {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 12px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
